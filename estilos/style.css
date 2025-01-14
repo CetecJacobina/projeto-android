@@ -1,0 +1,144 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: android;
+    src: url(../fontes/idroid.otf) format('opentype');
+}
+*{
+    margin: 0px;
+}
+
+body{
+    background-color: lightgreen;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    
+    color: white;
+    margin-bottom: 0px;
+    padding: 20px;
+    padding-bottom: 10px;
+    background-image: linear-gradient( to bottom, #48d148, #004700 70%);
+    text-shadow: 1px 2px 3px black;
+}
+header > h1{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-decoration: none;
+        text-align: center;
+        
+    }
+header > p{
+    text-align: center;
+}
+nav{
+    background-color: #004700;
+    padding-bottom: 10px;
+
+}
+nav > a{
+    
+    text-decoration: none;
+    padding: 4px 15px;
+    color: white;
+    display: inline-block;
+
+    
+
+}
+nav > a:hover{
+    background-color: rgb(245, 245, 245);
+    color: #004700;
+    /*border: 1px solid white;*/
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px rgb(0, 0, 0);
+    
+}
+article a{
+    background-color: #48d148;
+    color: rgb(255, 255, 255);
+    padding: 2px;
+}
+article a::after{
+    content: " 🔗";
+
+}
+main{
+    max-width: 900px;
+    background-color: white;
+    margin: auto;
+    padding: 10px;
+}
+article > h1{
+    font-family: 'android', sans-serif;
+    color: #004700;
+
+}
+h2{
+    padding: 2px 20px;
+    font-family: android, sans-serif;
+    color: #004700;
+    background-image: linear-gradient(to right, lightgreen, #fff);
+}
+p{
+    text-align: justify;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+
+
+p#titulo{
+    border-radius: 20px 20px 0px 0px;
+    color: white;
+    background-color: #3caf3c;
+    padding: 10px;
+    margin: 0px;
+    
+    
+
+}
+aside{
+    background-color: #acecd1;
+   border-radius: 20px;
+    margin-top: 10px;
+}
+
+aside > p{
+    margin: 15px;
+    padding-bottom: 15px;
+}
+main img.imagens{
+    display: block;
+    margin: auto;
+}
+div.videos{
+    margin: 15px -10px;
+    background-color: #004700;
+    text-align: center;
+    padding: 10px;
+    padding-bottom: 50%;
+    position: relative;
+}
+div.videos > iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+ul{
+    columns: 2;
+}
+li::before{
+    content: "✔️ ";
+}
+
+footer{
+    background-color: #004700;
+    color: white;
+    margin: 20px 0px;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    text-align: center;
+}

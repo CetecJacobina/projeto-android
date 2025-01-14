@@ -34,7 +34,7 @@ h4 {
     border-radius: 10px; /* Arredonda os cantos */
     
     /* Gradiente no background */
-    background: linear-gradient(to right, red, #ffffff); /* gradiente do laranja para o rosa */
+    background: linear-gradient(to right, green, #ffffff); /* gradiente do laranja para o rosa */
 }
         p {
             //margin: 10px 0;
